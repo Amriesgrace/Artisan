@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+body{
+	background-image:url('../images/feat-welding.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.navbar.navbar-default.navbar-fixed-top{
+	background-color: #428b46;
+	opacity: 0.8;
+	border: 1px solid #428b46;
+	height: 70px;
+}
+.container{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.container a.navbar-brand{
+	font-family: 'Eurostile';
+	font-size: 36px;
+	color: #fff;	
+}
+.container a.navbar-brand:hover{
+	font-family: 'Eurostile';
+	font-size: 36px;
+	color: #fff;
+}
+.nav.navbar-nav{
+	background-color: #428b46;
+}
+.navbar-default .navbar-nav li a{
+	font-size: 22px;
+	color: white;
+	font-family: 'Eurostile';
+}
+.center_heading h1{
+	margin: auto;
+	margin-top: 20%;
+	margin-left: 35%;
+	color: #fff;
+	font-family: 'Nunito';
+	font-size: 7em;
+}
+
+.buttons {
+	margin-left: 25%;
+	margin-top: 100px;
+	font-family: 'Nunito';
+}
+.buttons .btn1{
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'Nunito';
+	background-color: #fff;
+	color: #428b46;
+	margin-right: 60px;
+	width: 400px;
+	margin-left: -120px;
+	border-radius: 15px;
+	border-color: #fff;
+	box-shadow: 0px;
+	line-height: 30px;
+	text-align: center;	
+	letter-spacing: 0.5px;
+	border-width: 0px;
+
+}
+.buttons .btn2{
+	width: 400px;
+	background-color: #428b46;
+	color: #fff;
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 18px;
+	box-shadow: 0px;
+	line-height: 30px;
+	text-align: center;	
+	letter-spacing: 0.5px;
+	border-width: 0px;
+}
