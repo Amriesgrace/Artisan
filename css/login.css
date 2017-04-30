@@ -4,24 +4,35 @@
 	box-sizing:border-box;
 }
 body{
-	background-color: #fff;
-	font-family: 'Nunito';
+	background: #fff;
 }
 .container{
 	background: #999;
 	height: 100%;
 	width: 75%;
 }
+.hr{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	margin-left: 7em;  
+	margin-top: -2.5em;
+	font-size: 18px;
+	width: 30px;
+	padding-left: 5px;
+	border-radius: 100%;
+	background-color: #fff;
+	color: #999;
 
+}
 .form_wrapper{
 	border: 2px solid #fff;
 	width: 30%;
 	margin: auto;
-	margin-top: 5em;
+	margin-top: 8em;
 	background: #fff;
 	border-radius: 10px;
 }
-
 .fb_button{
 	background-color: #334e8a;
 	width: 85%;
@@ -30,35 +41,20 @@ body{
 	color: #fff;
 	margin: auto;
 	margin-left: 1.5em;
-	margin-top: 2em;
+	margin-top: 3em;
 	font-family: 'Nunito';
 	font-weight: 600;
 	letter-spacing: 0.03em;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 34px;
 	border-radius: 3px;
-	padding-bottom: 5px;
 }
-
 span.fa.fa-facebook{
 	color: #fff;
 	margin-left: -1em;
 	margin-right: 1em;
 	font-size: 15px;
 	padding-top: 10px;
-}
-
-.hr{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin: auto;
-	margin-left: 7.5em;  
-	margin-top: -2.5em;
-	font-size: 18px;
-	width: 30px;
-	padding-left: 5px;
-	border-radius: 100%;
-	background-color: #fff;
 }
 .form-control{
 	height: 3em;
@@ -71,74 +67,41 @@ span.fa.fa-facebook{
 input .form-control{
 	color: white;
 }
-.btn.btn-primary{
+.checkbox{
+	margin-left: 18px;
+	font-family: 'Nunito';
+	font-size: 16px;
+	font-weight: 700;
+}
+.checkbox input{
+	border: 2px solid #f9f9f9;
+}
+.btn.btn-signin{
 	background-color: #428b46;
-	width: 160px;
+	width: 120px;
+	display: inline;
 	margin: auto;
-	margin-left: 70px;
+	margin-left: 10px;
 	margin-bottom: 30px;
 	margin-top: 10px;
 	height: 40px;
 	font-family: 'Nunito';
 	font-size: 18px;
 	border: 1px solid #428b46;
+	color: #fff;
 }
-@media only screen and (min-width:400px)and(max-width: 540px){
-	.form_wrapper{
-		border: 2px solid #fff;
-		width: 85%;
-		margin: auto;
-		margin-top: 6em;
-		background: #fff;
-		border-radius: 10px;
-		height: 70%;
-	}
-	.fb_button{
-		background-color: #334e8a;
-		width: 85%;
-		height: 50px;
-		border-width: 0px;
-		color: #fff;
-		margin: auto;
-		margin-left: 1.2em;
-		margin-top: 2em;
-		font-family: 'Nunito';
-		font-weight: 600;
-		letter-spacing: 0.03em;
-		font-size: 14px;
-		line-height: 34px;
-		border-radius: 3px;
-	}
-	span.fa.fa-facebook{
-		color: #fff;
-		margin-left: -1em;
-		margin-right: 0.8em;
-		font-size: 14px;
-		padding-top: 10px;
-	}
-	.form-control{
-		height: 2.2em;
-		border: 1px solid grey;
-		width: 80%;
-		margin: auto;
-		margin-bottom: 1em;
-		color: #f5f5f5;
-	}
-	.btn.btn-primary{
-		background-color: #428b46;
-		width: 160px;
-		margin: auto;
-		margin-left: 60px;
-		margin-bottom: 50px;
-		padding-bottom: 10px;
-		height: 40px;
-		font-family: 'Nunito';
-		font-size: 18px;
-		border: 1px solid #428b46;
-		margin-bottom: 50px;
-	}
+.btn.btn-primary.pass{
+	float: right;
+	margin-top: 0.5em;
+	background: #f5f5f5;
+	color: #4886cd;
+	font-family: 'Nunito';
+	font-size: 18px;
+	border: 1px solid #fff;
 }
-@media (max-width: 900px) and (min-width: 541px){
+
+/*media query styling*/
+@media only screen and (max-width:400px ){
 	.form_wrapper{
 		border: 2px solid #fff;
 		width: 70%;
@@ -164,6 +127,7 @@ input .form-control{
 		line-height: 34px;
 		border-radius: 3px;
 	}
+
 	span.fa.fa-facebook{
 		color: #fff;
 		margin-left: -1em;
@@ -179,18 +143,85 @@ input .form-control{
 		margin-bottom: 1em;
 		color: #f5f5f5;
 	}
-	.btn.btn-primary{
+	.btn.btn-signin{
 		background-color: #428b46;
 		width: 160px;
 		margin: auto;
 		margin-left: 60px;
-		margin-bottom: 50px;
 		padding-bottom: 10px;
 		height: 40px;
 		font-family: 'Nunito';
 		font-size: 18px;
 		border: 1px solid #428b46;
-		margin-bottom: 50px;
+		margin-bottom: 10px;
+		color: #fff;
+	}
+	.btn.btn-primary.pass{
+		margin-top: 10px;
+		border: 2px solid #f5f5f5;
+		margin-right: 60px;
+		color: #4486cd;
+	}
+}
+@media (max-width: 540px) and (min-width: 400px){
+	.form_wrapper{
+		border: 2px solid #fff;
+		width:70%;
+		margin: auto;
+		margin-top: 6em;
+		background: #fff;
+		border-radius: 10px;
+		height: 70%;
+	}
+	.fb_button{
+		background-color: #334e8a;
+		width: 85%;
+		height: 50px;
+		border-width: 0px;
+		color: #fff;
+		margin: auto;
+		margin-left: 1.2em;
+		margin-top: 2em;
+		font-family: 'Nunito';
+		font-weight: 600;
+		letter-spacing: 0.03em;
+		font-size: 14px;
+		line-height: 34px;
+		border-radius: 3px;
+	}
+	span.fa.fa-facebook{
+		color: #fff;
+		margin-left: -1em;
+		margin-right: 0.8em;
+		font-size: 14px;
+		padding-top: 10px;
+	}
+	.form-control{
+		height: 2.2em;
+		border: 1px solid grey;
+		width: 80%;
+		margin: auto;
+		margin-bottom: 1em;
+		color: #f5f5f5;
+	}
+	.btn.btn-signin{
+		background-color: #428b46;
+		width: 160px;
+		margin: auto;
+		margin-left: 30px;
+		padding-bottom: 10px;
+		height: 40px;
+		font-family: 'Nunito';
+		font-size: 18px;
+		border: 1px solid #428b46;
+		margin-top: 2em;
+		color:#fff;
+	}
+	.btn.btn-primary.pass{
+		background: #fff;
+		color: #4886cd;
+		margin-top: 2em;
+		border: 2px solid #f5f5f5;
 	}
 
 }

@@ -1,0 +1,28 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+body{
+	background:#fff;
+}
+.container{
+	width: 80%;
+	height: 662px;
+	border: 2px solid black!important;
+	background: #999;
+}
+
+.bk-visit_wrapper{
+	border: 2px solid silver;
+	width: 60%;
+	margin: auto;
+	height: 50%;
+	margin-top: 9em;
+	background: #fff;
+	border-width: 0px;
+}
+span.fa.fa-times{
+	float: right;
+}

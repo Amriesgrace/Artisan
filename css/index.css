@@ -38,6 +38,11 @@ body{
 	color: white;
 	font-family: 'Eurostile';
 }
+.navbar-default .navbar-nav li a:hover{
+	background-color: white;
+	color: #428b46;
+}
+/*End of navbar styling*/
 .center_heading h1{
 	margin: auto;
 	margin-top: 20%;
@@ -46,7 +51,6 @@ body{
 	font-family: 'Nunito';
 	font-size: 7em;
 }
-
 .buttons {
 	margin-left: 25%;
 	margin-top: 100px;
@@ -68,7 +72,14 @@ body{
 	text-align: center;	
 	letter-spacing: 0.5px;
 	border-width: 0px;
-
+}
+.buttons .btn1:hover{
+	background: #428b46;
+	color: #fff;
+}
+.buttons .btn2:hover{
+	background: #fff;
+	color: #428b46;
 }
 .buttons .btn2{
 	width: 400px;
@@ -82,4 +93,37 @@ body{
 	text-align: center;	
 	letter-spacing: 0.5px;
 	border-width: 0px;
+}
+@media only screen and (min-width:400px)and (max-width: 540px){
+
+	li.signup{
+		margin-top: 35px;
+		margin-left: 10px;
+	}
+	li.login{
+		margin-left: 10px;
+	}
+	.center_heading h1{
+		font-size: 5em;
+		margin: auto;
+		margin-top: 3em;
+		margin-left: 1em;
+	}
+	.buttons{
+		margin-top: 2em;
+	}
+	.buttons .btn1{
+		width: 14em;
+		margin-left: -1em;
+		margin-bottom: 1em;
+
+	}
+	.buttons .btn2{
+		width: 14em;
+		margin-left: -1em;
+		margin-bottom:7.8em;
+	}
+	body{
+		height: 100%;
+	}
 }

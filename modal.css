@@ -1,0 +1,42 @@
+.card .contents{
+    padding: 10px;
+}
+.card .thumbnail img {
+    height: 200px;
+    width: 300px;
+}
+.thumbnail{
+    border: none;
+}
+.rf3{
+    color: red;
+}
+.rf5{
+    margin-bottom: -10px;
+}
+.fa-inline .fa{
+    font-size: 12px;
+}
+.dis-flex{
+    display: flex;
+    margin-left: 30px;
+}
+.uu{
+    margin-left: -17px;
+    width: 105px;
+}
+.oo{
+    margin-rifgt: -80px;
+    width: 105px;
+}
+.pp{
+    background: #E9EAB4;
+    color: #428b46;
+}
+.pp:focus{
+    color: #ffffff;
+    background: #428b46;
+}
+.pp:hover{
+    color: #ffffff;
+}
